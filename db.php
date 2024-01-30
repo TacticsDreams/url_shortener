@@ -1,6 +1,10 @@
 <?php
-
+/**
+ *  This file contains and logs in to your database.
+ *  It is ready to use for local environnements.
+ */
 function connectDatabase() {
+    // Your database's coordonates.
     $servername = "localhost";
     $username = "root";
     $password = "";
